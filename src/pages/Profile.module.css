@@ -1,0 +1,36 @@
+.profilepage {
+  display: flex;
+  font: inherit;
+}
+.info {
+  margin: 0 auto;
+  margin: 1rem 0 0 1rem;
+}
+.name {
+  margin: 0 auto;
+  font-size: 20px;
+  font-style: inherit;
+  font-weight: bold;
+}
+.bio {
+  margin: .2rem 0;
+}
+.birthday {
+  display: flex;
+  font-size: small;
+  color: rgb(57, 55, 55);
+  align-items: center;
+}
+.edit {
+  text-decoration: none;
+  color: black;
+  font: inherit;
+  font-size: small;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.edit:hover {
+  text-decoration: underline;
+}

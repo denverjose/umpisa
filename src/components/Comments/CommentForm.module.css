@@ -1,0 +1,34 @@
+.form {
+  margin-top: 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  padding: 0.35rem;
+  background-color: #f0f0f0;
+  border: 1px solid #c1d1d1;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.control input:focus {
+  background-color: #E8F0FE;
+}

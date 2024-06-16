@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+font-family: inconsolata;
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  background-color: #fafafa;
+}
+.centered {
+  text-align: center;
+}
