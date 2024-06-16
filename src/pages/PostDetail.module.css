@@ -1,0 +1,34 @@
+.post {
+  border-radius: 6px;
+  list-style: none;
+  padding: 1rem 2rem;
+  margin: 1.5rem auto;
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.detail {
+  display: flex;
+  justify-content: flex-end;
+}
+.post a {
+  text-decoration: none;
+  color: black;
+}
+.profile {
+  display: flex;
+  font: inherit;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  gap: 1rem;
+}
+.post  p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+}
+.name:hover {
+  text-decoration: underline;
+}
