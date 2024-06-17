@@ -1,7 +1,6 @@
 import bcrypt from "bcryptjs";
 
-const FIREBASE_DOMAIN =
-  "https://umpisa-bf4f3-default-rtdb.asia-southeast1.firebasedatabase.app/";
+const FIREBASE_DOMAIN = import.meta.env.VITE_FIREBASE_DOMAIN;
 
 function formatDate(timestamp) {
   const date = new Date(timestamp);
