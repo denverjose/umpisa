@@ -20,5 +20,19 @@
 }
 
 .control input:focus {
-  background-color: #E8F0FE;
+  background-color: #e8f0fe;
+}
+.button {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button button {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 12px;
+}
+
+.button button:hover {
+  background-color: rgb(229, 234, 237);
 }

@@ -44,6 +44,9 @@ const PostForm = (props) => {
           onChange={(e) => setPostText(e.target.value)}
         />
       </div>
+      <div className={classes.button}>
+        <button>Post</button>
+      </div>
       {status === "pending" && (
         <div className={classes.center}>
           <LoadingSpinner />
